@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    background-color: gray;
+}
+li{
+    list-style: none;
+}
+/* 当当窗口 */
+img{
+    width: 796px;
+    height: 326px;
+
+
+}
+a{
+    text-decoration: none;
+    color:white
+}
+/* 大盒子+定位 */
+.roll_01{
+    position: relative;
+    left: 10%;
+    margin-left: 122px;
+    margin-top: 10px;
+    width: 796px;
+    height: 326px;
+    
+}
+.arrow{
+    height: 30px;
+    width: 20px;
+}
+.circle{
+    position: absolute;
+    border-radius: 15px;
+    top: 45%;
+    left: 506px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 30px;
+    width: 270px;
+}
+/* 箭头定位 */
+ .a_01{
+    position: absolute;
+    left: 20%;
+    top: 163px;
+    background-color:rgba(0, 0, 0, 0.3) ;
+ }
+.a_02{
+    position: absolute;
+    left: 81.5%;
+    top: 163px;
+   background-color:rgba(0, 0, 0, 0.3) ;
+   
+
+}
+/* 小圆点 */
+.circle>li{
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    padding: 1px;
+    display: inline-block;
+    
+}
+.select{
+    background-color: pink;
+}
+
+
+
+
+
+
+/* 页面布局 */
+.over{
+    margin: 0 auto;
+    width: 1200px;
+    height: 830px;
+}
+/* 三个大盒子 */
+.div_1{
+    height: 330px;
+    width: 400px;
+    position: relative;
+    float:left;
+    
+}
+.div_2{
+    height: 330px;
+    width: 800px;
+   float: left;
+    
+}
+.div_3{
+    height: 170px;
+    width: 1200px;
+    float: left;
+}
+/* 小盒子 */
+ li{
+    height: 145px;
+    width: 180px;
+    background-color: azure;
+    margin: 10px;
+}
+.div_1>ul>li{
+    height: 300px;
+    width: 180px;
+    background-color: aquamarine;
+    
+}
+
+/* 排列浮动 */
+.li_0101 ,.li_0102{
+    float: left;
+}
+.li_0201 ,.li_0202,.li_0203 ,.li_0204,.li_0205 ,.li_0206,.li_0207 ,.li_0208{
+    float: left;
+}
+.li_0301 ,.li_0302,.li_0303,.li_0304,.li_0305,.li_0306{
+    float: left;
+}
