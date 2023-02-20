@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @psr-2303
 - 👀 I’m interested in food and book
-- 🌱 I’m currently learning AI,Python,C
+- 🌱 I’m currently learning Web,AI,Python,C
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
